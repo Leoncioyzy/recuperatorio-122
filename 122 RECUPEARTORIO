@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="contenedor">1
+        <div class="cabeza">
+            <div class="partesuperior">z</div>
+            <div class="ojos">
+                <div class="ojo1"></div>
+                <div class="ojo2"></div>
+            </div>
+            <div class="nariz-boca">
+                <div class="nariz">b</div>
+                <div class="boca">z</div>
+            </div>
+        </div>
+        <div class="torso">
+            <div class="vasos">
+                <div class="vaso1"></div>
+                <div class="vaso2"></div>
+            </div>
+                
+            <div class="manos">
+                <div class="mano1"></div>
+                <div class="mano2"></div>
+            </div>
+        </div>
+        <<div class="pies">
+            <div class="dosmuslos">
+                <div class="muslo1"></div>
+                <div class="muslo2"></div>
+            </div>
+
+        </div>>
+
+
+
+    </div>
+</body>
+</html>
+EL CSS
+body{
+    background-color: aqua;
+}
+.contenedor{
+    background-color: blue;
+    color: aliceblue;
+    margin: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cabeza{
+    background-color: #c4510f;
+    height: 180px ;
+    width: 150px ;
+    border-radius: 10%;
+    border-color: black;
+}
+.partesuperior{
+    border-color: black;
+    
+    background-color: bisque;
+}
+.ojos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.ojo1{
+    background-color: bisque;
+    width: 30px;
+    height: 50px;
+    border-radius: 10%;
+}
+.ojo2{
+    background-color: bisque;
+    width: 30px;
+    height: 50px;
+    border-radius: 10%;
+}
+.nariz-boca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nariz{
+    background-color: bisque;
+    width: 20px;
+    height: 40px;
+    border-radius: 10%;
+}
+.boca{
+    background-color: aqua;
+    width: 50px;
+    height: 20px;
+    border-radius: 10%;
+}
+.torso{
+    background-color: rgb(126, 85, 32);
+    width: 200px;
+    height: 210px;
+    border-radius: 10%;
+    border-color: black;
+}
+.vasos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.vaso1{
+    background-color: #6d3c1f;
+    width: 35px;
+    height: 100px;
+}
+.vaso2{
+    background-color: #6d3c1f;
+    width: 35px;
+    height: 100px;
+}
+.manos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.mano1{
+    background-color: #a14e1dde;
+    width: 90px;
+    height: 40px;
+}
+.mano2{
+    background-color: #a14e1dde;
+    width: 90px;
+    height: 40px;
+}
+.pies{
+    background-color: brown;
+    height: 200px ;
+    width: 192px ;
+    border-radius: 10%;
+    border-color: black;
+}
+.pies{
+    background-color: brown;
+    height: 200px ;
+    width: 192px ;
+    border-radius: 10%;
+    border-color: black;
+}
+.dosmuslos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.muslo1{
+    background-color: #a14e1dde;
+    width: 92px;
+    height: 165px;
+    border-radius: 10%;
+}
+.muslo2{
+    background-color: #a14e1dde;
+    width: 92px;
+    height: 165px;
+    border-radius: 10%;
+}
